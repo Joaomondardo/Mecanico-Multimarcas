@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { ViewMode, ContactInfo, Brand, Service } from './types';
 import { initialContactInfo, initialBrands, initialServices } from './data/initialData';
 import { NavigationHeader } from './components/NavigationHeader';
@@ -167,6 +168,9 @@ export default function App() {
         onClose={() => setIsQrCodeOpen(false)}
         contactInfo={contactInfo}
       />
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
