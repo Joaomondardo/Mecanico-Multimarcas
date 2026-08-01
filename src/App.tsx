@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { ViewMode, ContactInfo, Brand, Service } from './types';
 import { initialContactInfo, initialBrands, initialServices } from './data/initialData';
 import { NavigationHeader } from './components/NavigationHeader';
@@ -167,6 +168,9 @@ export default function App() {
         onClose={() => setIsQrCodeOpen(false)}
         contactInfo={contactInfo}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
