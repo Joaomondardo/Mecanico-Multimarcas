@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Mecânico Multi-Marcas - Cartão Digital
 
-# Run and deploy your AI Studio app
+Cartão de visitas digital otimizado e interativo para serviços automotivos.
 
-This contains everything you need to run your app locally.
+## Instalação
 
-View your app in AI Studio: https://ai.studio/apps/74a72e23-6cbb-48d0-a6e0-18b39a57d36f
+```bash
+npm install
+```
 
-## Run Locally
+## Execução Local
 
-**Prerequisites:**  Node.js
+```bash
+npm run dev
+```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Este projeto foi construído com React, Vite e Tailwind CSS, e está pronto para ser publicado de forma otimizada em plataformas como a Vercel.
