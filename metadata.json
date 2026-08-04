@@ -1,0 +1,6 @@
+{
+  "name": "Mecânico Multi-Marcas - Cartão Digital",
+  "description": "Cartão de visita digital interativo e painel de atendimento para oficina mecânica especializada multi-marcas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
